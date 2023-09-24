@@ -15,6 +15,9 @@ if (!defined('ABSPATH')) {
 }
 
 // Woo Products
-require_once( plugin_dir_path( __FILE__ ) . 'includes/get_woocommerce_products.php' );
+require_once( plugin_dir_path( __FILE__ ) . 'includes/woo_products.php' );
+
+// Woo Products Categories
+require_once( plugin_dir_path( __FILE__ ) . 'includes/woo_products_categories.php' );
 
 ?>
